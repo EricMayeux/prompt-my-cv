@@ -1,0 +1,70 @@
+{
+  "source": "scrum_master_28017_8_mois",
+  "top_keywords": [
+    {"keyword": "Scrum", "occurrences": 4, "category": "Frameworks Agile", "priority": "High"},
+    {"keyword": "Agile", "occurrences": 4, "category": "Frameworks Agile", "priority": "High"},
+    {"keyword": "SAFe", "occurrences": 2, "category": "Frameworks Agile", "priority": "High"},
+    {"keyword": "Priorisation", "occurrences": 3, "category": "Planification & Backlog", "priority": "High"},
+    {"keyword": "PI Planning", "occurrences": 1, "category": "Planification & Backlog", "priority": "High"},
+    {"keyword": "Facilitation", "occurrences": 3, "category": "Facilitation & Leadership", "priority": "High"},
+    {"keyword": "Collaboration", "occurrences": 3, "category": "Collaboration", "priority": "High"},
+    {"keyword": "Communication", "occurrences": 3, "category": "Soft skills", "priority": "High"},
+    {"keyword": "Résolution de problèmes", "occurrences": 3, "category": "Delivery & Qualité", "priority": "High"},
+    {"keyword": "Gestion des risques", "occurrences": 2, "category": "Delivery & coordination", "priority": "Medium"},
+    {"keyword": "Leadership", "occurrences": 2, "category": "Facilitation & Leadership", "priority": "Medium"},
+    {"keyword": "Organisation", "occurrences": 2, "category": "Soft skills", "priority": "Medium"},
+    {"keyword": "JIRA", "occurrences": 1, "category": "Outils & Plateformes", "priority": "Medium"},
+    {"keyword": "Confluence", "occurrences": 1, "category": "Outils & Plateformes", "priority": "Medium"},
+    {"keyword": "Interdépendances", "occurrences": 1, "category": "Delivery & coordination", "priority": "Low"}
+  ],
+  "grouped_by_theme": {
+    "Frameworks Agile": ["Scrum", "Agile", "SAFe"],
+    "Planification & Backlog": ["PI Planning", "Priorisation"],
+    "Facilitation & Leadership": ["Facilitation", "Leadership", "Animation de réunion", "Écoute active"],
+    "Delivery & Qualité": ["Résolution de problèmes", "Gestion des risques", "Interdépendances", "Amélioration continue"],
+    "Outils & Plateformes": ["JIRA", "Confluence"],
+    "Soft skills": [
+      "Communication",
+      "Organisation",
+      "Collaboration",
+      "Orienté résultats",
+      "Travail en équipe / Travail d’équipe",
+      "Influencer les autres",
+      "Initiative",
+      "Mobilisation",
+      "Résilience",
+      "Écoute active"
+    ],
+    "Performance & Pilotage": ["Indicateurs clés de performance"],
+    "Bien-être & Résilience": ["Gestion du stress","Résilience"],
+    "Organisation & Process": ["Sens de l'organisation"],
+    "Facilitation & Réunions": ["Animation de réunion"]
+  },
+  "competences_extracted": [
+    "Méthodologie agile",
+    "Communication",
+    "Amélioration continue",
+    "Orienté résultats",
+    "Indicateurs clés de performance",
+    "Sens de l'organisation",
+    "Résolution de problèmes",
+    "Gestion du stress",
+    "Travail en équipe / Travail d’équipe",
+    "Influencer les autres",
+    "Initiative",
+    "Mobilisation",
+    "Résilience",
+    "Écoute active",
+    "Animation de réunion"
+  ],
+  "suggestions_cv": [
+    {"keyword": "Scrum", "suggestion": "Facilite cérémonies Scrum pour plusieurs squads afin d'assurer cadence et livraison de valeur."},
+    {"keyword": "Agile", "suggestion": "Pilote delivery Agile/SAFe en favorisant collaboration, priorisation et amélioration continue."},
+    {"keyword": "SAFe", "suggestion": "Coordonne PI Planning et comités de changement dans un cadre SAFe pour aligner engagements."},
+    {"keyword": "Priorisation", "suggestion": "Accompagne le Product Owner dans la priorisation et le raffinement du backlog pour maximiser valeur."},
+    {"keyword": "PI Planning", "suggestion": "Prépare et anime PI Planning : priorisation, découpage et présentation des engagements."},
+    {"keyword": "Facilitation", "suggestion": "Facilite ateliers et cérémonies pour résoudre blocages et clarifier interdépendances."},
+    {"keyword": "Communication", "suggestion": "Adapte communication aux audiences (exécutif, technique, métier) pour transparence projet."},
+    {"keyword": "Résolution de problèmes", "suggestion": "Diagnostique et résous problèmes complexes en mettant en place solutions durables axées qualité."}
+  ]
+}

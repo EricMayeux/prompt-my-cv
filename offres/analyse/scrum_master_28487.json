@@ -1,0 +1,60 @@
+{
+  "source": "scrum_master_28487",
+  "top_keywords": [
+    {"keyword": "Scrum","occurrences": 3,"category": "Frameworks Agile","priority": "High"},
+    {"keyword": "Agile","occurrences": 5,"category": "Frameworks Agile","priority": "High"},
+    {"keyword": "Scaled Agile Framework","occurrences": 1,"category": "Frameworks Agile","priority": "High"},
+    {"keyword": "planification par incrément de programme","occurrences": 1,"category": "Planification & Backlog","priority": "High"},
+    {"keyword": "priorisation","occurrences": 2,"category": "Planification & Backlog","priority": "High"},
+    {"keyword": "raffinement","occurrences": 1,"category": "Planification & Backlog","priority": "Medium"},
+    {"keyword": "faciliter / facilitation","occurrences": 3,"category": "Facilitation & Leadership","priority": "High"},
+    {"keyword": "amélioration continue","occurrences": 2,"category": "Delivery & qualité","priority": "High"},
+    {"keyword": "résolution de problèmes","occurrences": 2,"category": "Delivery & qualité","priority": "High"},
+    {"keyword": "interdépendances","occurrences": 1,"category": "Delivery & coordination","priority": "Medium"},
+    {"keyword": "gouvernance (budgets, échéanciers, risques)","occurrences": 1,"category": "Outils & gouvernance","priority": "Medium"},
+    {"keyword": "Jira","occurrences": 1,"category": "Outils & plateformes","priority": "Medium"},
+    {"keyword": "Confluence","occurrences": 1,"category": "Outils & plateformes","priority": "Medium"},
+    {"keyword": "collaboration","occurrences": 1,"category": "Soft skills","priority": "High"},
+    {"keyword": "communication","occurrences": 1,"category": "Soft skills","priority": "High"},
+    {"keyword": "coaching et mentorat","occurrences": 2,"category": "Facilitation & Leadership","priority": "Medium"},
+    {"keyword": "diversité et inclusion","occurrences": 1,"category": "Soft skills","priority": "Low"}
+  ],
+  "grouped_by_theme": {
+    "Frameworks Agile": ["Scrum","Agile","Scaled Agile Framework"],
+    "Planification & Backlog": ["planification par incrément de programme","priorisation","raffinement"],
+    "Facilitation & Leadership": ["faciliter / facilitation","coaching et mentorat"],
+      "Delivery & Qualité": ["amélioration continue","résolution de problèmes","interdépendances","Souci du détail"],
+    "Outils & plateformes": ["Jira","Confluence"],
+    "Outils & gouvernance": ["gouvernance (budgets, échéanciers, risques)"],
+    "Soft skills": ["collaboration","communication","diversité et inclusion"],
+      "Gouvernance & Opérations": ["gouvernance (budgets, échéanciers, risques, actifs)","comités","planification par incrément de programme"],
+      "Diversité & Inclusion": ["Diversité et inclusion"]
+  },
+    "competences_extracted": [
+      "Méthodologie agile",
+      "Communication",
+      "Amélioration continue",
+      "Diversité et inclusion",
+      "Orienté résultats",
+      "Sens de l'organisation",
+      "Résolution de problèmes",
+      "Gestion du stress",
+      "Travail en équipe / Travail d’équipe",
+      "Souci du détail",
+      "Influencer les autres",
+      "Initiative",
+      "Mobilisation",
+      "Résilience",
+      "Écoute"
+    ],
+  "suggestions_cv": [
+    {"keyword":"Scrum","suggestion":"Facilite cérémonies Scrum multi-équipes pour assurer cadence et livraison de valeur."},
+    {"keyword":"Agile","suggestion":"Pilote pratiques Agile/SAFe axées sur priorisation et amélioration continue."},
+    {"keyword":"planification par incrément de programme","suggestion":"Coordonne planification par incrément (PI) pour aligner équipes et engagements."},
+    {"keyword":"priorisation","suggestion":"Accompagne le Product Owner dans la priorisation du backlog pour maximiser la valeur."},
+    {"keyword":"faciliter / facilitation","suggestion":"Facilite ateliers et cérémonies pour lever obstacles et accélérer la livraison."},
+    {"keyword":"amélioration continue","suggestion":"Implémente améliorations continues pour réduire défauts et améliorer qualité."},
+    {"keyword":"résolution de problèmes","suggestion":"Diagnostique et résous problèmes complexes pour rétablir la cadence projet rapidement."},
+    {"keyword":"collaboration","suggestion":"Favorise collaboration inter-équipes pour gérer interdépendances et délivrer valeur."}
+  ]
+}

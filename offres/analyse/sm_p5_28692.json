@@ -1,0 +1,73 @@
+{
+"source": "scrum_master_28692_P5",
+"top_keywords": [
+{"keyword": "Scrum", "occurrences": 3, "category": "Frameworks Agile", "priority": "High"},
+{"keyword": "Agile", "occurrences": 3, "category": "Frameworks Agile", "priority": "High"},
+{"keyword": "SAFe", "occurrences": 3, "category": "Frameworks Agile", "priority": "High"},
+{"keyword": "Communication", "occurrences": 3, "category": "Soft skills", "priority": "High"},
+{"keyword": "Priorisation", "occurrences": 2, "category": "Planification & Backlog", "priority": "High"},
+{"keyword": "Organisation", "occurrences": 2, "category": "Soft skills", "priority": "Medium"},
+{"keyword": "Résolution de problèmes", "occurrences": 2, "category": "Delivery & qualité", "priority": "High"},
+{"keyword": "Mobilisation", "occurrences": 2, "category": "Leadership & culture", "priority": "Medium"},
+{"keyword": "JIRA", "occurrences": 1, "category": "Outils & plateformes", "priority": "Medium"},
+{"keyword": "Confluence", "occurrences": 1, "category": "Outils & plateformes", "priority": "Medium"},
+{"keyword": "PI planning", "occurrences": 1, "category": "Planification & Backlog", "priority": "High"},
+{"keyword": "Facilitation", "occurrences": 1, "category": "Facilitation & leadership", "priority": "High"},
+{"keyword": "Coaching", "occurrences": 1, "category": "Facilitation & leadership", "priority": "Medium"},
+{"keyword": "DevSecOps", "occurrences": 1, "category": "Delivery & qualité", "priority": "Medium"},
+{"keyword": "ServiceNow", "occurrences": 1, "category": "Outils & plateformes", "priority": "Low"},
+{"keyword": "SSDLC", "occurrences": 1, "category": "Delivery & qualité", "priority": "Medium"},
+{"keyword": "Interdépendances", "occurrences": 1, "category": "Delivery & coordination", "priority": "Low"},
+{"keyword": "Leadership", "occurrences": 1, "category": "Facilitation & leadership", "priority": "Medium"},
+{"keyword": "Animation d'ateliers", "occurrences": 1, "category": "Facilitation & leadership", "priority": "Medium"},
+{"keyword": "Esprit d'analyse", "occurrences": 1, "category": "Soft skills", "priority": "Medium"}
+],
+"grouped_by_theme": {
+"Frameworks Agile": ["Scrum", "Agile", "SAFe"],
+"Planification & Backlog": ["PI planning", "Priorisation"],
+"Facilitation & Leadership": ["Facilitation", "Animation d'ateliers", "Coaching", "Leadership", "Mobilisation"],
+"Delivery & Qualité": ["DevSecOps", "SSDLC", "Résolution de problèmes", "Interdépendances"],
+"Outils & Plateformes": ["JIRA", "Confluence", "ServiceNow"],
+"Soft skills": [
+	"Communication",
+	"Esprit d'analyse",
+	"Orientation résultats",
+	"Travail en équipe[Travail d’équipe",
+	"Souci du détail",
+	"Influencer les autres",
+	"Initiative",
+	"Mobilisation",
+	"Résilience",
+	"Écoute"
+],
+"Performance & Pilotage": ["Indicateurs clés de performance"],
+"Bien-être & Résilience": ["Gestion du stress"]
+},
+"competences_extracted": [
+	"Méthodologie agile",
+	"Communication",
+	"Diversité et inclusion",
+	"Orienté résultats",
+	"Indicateurs clés de performance",
+	"Sens de l'organisation",
+	"Résolution de problèmes",
+	"Gestion du stress",
+	"Travail en équipe[Travail d’équipe",
+	"Souci du détail",
+	"Influencer les autres",
+	"Initiative",
+	"Mobilisation",
+	"Résilience",
+	"Écoute"
+],
+"suggestions_cv": [
+{"keyword": "Scrum", "suggestion": "Facilite cérémonies Scrum multi-équipes pour maintenir cadence et délivrer valeur de façon continue."},
+{"keyword": "Agile", "suggestion": "Pilote delivery Agile/SAFe, favorisant collaboration et amélioration continue entre dev et produit."},
+{"keyword": "SAFe", "suggestion": "Coordonne PI planning et comités de changement dans un contexte SAFe pour aligner engagements."},
+{"keyword": "PI planning", "suggestion": "Prépare et anime PI planning : priorisation, découpage et présentation des engagements."},
+{"keyword": "Priorisation", "suggestion": "Contribue à priorisation stratégique du backlog pour maximiser la valeur métier livrée."},
+{"keyword": "Facilitation", "suggestion": "Facilite ateliers et cérémonies pour résoudre blocages et clarifier dépendances."},
+{"keyword": "Communication", "suggestion": "Adapte communication aux audiences: statuts exécutifs, rapports projet et échanges techniques."},
+{"keyword": "Résolution de problèmes", "suggestion": "Diagnostique incidents complexes et met en place solutions durables axées qualité et sécurité."}
+]
+}

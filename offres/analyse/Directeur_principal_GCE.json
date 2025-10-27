@@ -1,0 +1,81 @@
+{
+  "source": "Directeur_principal_GCE",
+  "top_keywords": [
+    {"keyword": "Agile", "occurrences": 3, "category": "Frameworks & Méthodes", "priority": "High"},
+    {"keyword": "SAFe", "occurrences": 1, "category": "Frameworks & Méthodes", "priority": "High"},
+    {"keyword": "DevSecOps", "occurrences": 1, "category": "Outils & Plateformes", "priority": "High"},
+    {"keyword": "gestion du cycle de vie du portefeuille d’actifs TI", "occurrences": 1, "category": "Planification & Gouvernance", "priority": "High"},
+    {"keyword": "gestion documentaire", "occurrences": 2, "category": "Domaine métier", "priority": "High"},
+    {"keyword": "diriger", "occurrences": 1, "category": "Management & Leadership", "priority": "High"},
+    {"keyword": "vision stratégique", "occurrences": 1, "category": "Management & Leadership", "priority": "High"},
+    {"keyword": "amélioration continue", "occurrences": 2, "category": "Delivery & qualité", "priority": "High"},
+    {"keyword": "résolution des problèmes", "occurrences": 2, "category": "Delivery & qualité", "priority": "High"},
+    {"keyword": "incidents", "occurrences": 2, "category": "Opérations & Support", "priority": "Medium"},
+    {"keyword": "SLAs", "occurrences": 1, "category": "Opérations & Support", "priority": "Medium"},
+    {"keyword": "Jira", "occurrences": 1, "category": "Outils & Plateformes", "priority": "Medium"},
+    {"keyword": "PowerBI", "occurrences": 1, "category": "Outils & Plateformes", "priority": "Medium"},
+    {"keyword": "fournisseurs", "occurrences": 1, "category": "Partenaires & Fournisseurs", "priority": "Medium"},
+    {"keyword": "budgets", "occurrences": 1, "category": "Planification & Gouvernance", "priority": "Medium"},
+    {"keyword": "KPIs", "occurrences": 1, "category": "Mesure & Pilotage", "priority": "Medium"},
+    {"keyword": "surveillance proactive", "occurrences": 1, "category": "Opérations & Support", "priority": "Low"}
+  ],
+  "grouped_by_theme": {
+    "Frameworks & Méthodes": ["Agile","SAFe"],
+    "Planification & Gouvernance": ["gestion du cycle de vie du portefeuille d’actifs TI","roadmap","budgets"],
+    "Domaine métier": ["gestion documentaire"],
+    "Management & Leadership": [
+      "diriger",
+      "vision stratégique",
+      "KPIs",
+      "Prise de décision",
+      "Influencer les autres",
+      "Mobilisation",
+      "Exécution de stratégie",
+      "Alignement des équipes",
+      "Courage managérial",
+      "Négociation"
+    ],
+    "Delivery & qualité": ["amélioration continue","résolution des problèmes"],
+    "Opérations & Support": ["SLAs","incidents","surveillance proactive"],
+    "Outils & Plateformes": ["DevSecOps","Jira","PowerBI"],
+    "Partenaires & Fournisseurs": ["fournisseurs"],
+    "Soft skills": [
+      "collaboration",
+      "communication",
+      "diversité et inclusion",
+      "Esprit critique",
+      "Travail en équipe / Travail d’équipe",
+      "Agilité d'apprentissage"
+    ],
+    "Communications": ["Communications bilingues"],
+    "Innovation & transformation": ["Gestion des innovations"],
+    "Mesure & Pilotage": ["Décisions basées sur les données"]
+  },
+  "competences_extracted": [
+    "Communications bilingues",
+    "Esprit critique",
+    "Gestion des innovations",
+    "Négociation",
+    "Travail en équipe / Travail d’équipe",
+    "Décisions basées sur les données",
+    "Prise de décision",
+    "Influencer les autres",
+    "Agilité d'apprentissage",
+    "Mobilisation",
+    "Vision stratégique",
+    "Exécution de stratégie",
+    "Alignement des équipes",
+    "Courage managérial"
+  ],
+  "suggestions_cv": [
+    {"keyword": "Agile", "suggestion": "Pilote delivery Agile pour aligner équipes et accélérer la livraison de valeur."},
+    {"keyword": "SAFe", "suggestion": "Applique pratiques SAFe pour coordonner PI et aligner priorités multi-équipes."},
+    {"keyword": "gestion du cycle de vie du portefeuille d’actifs TI", "suggestion": "Gère le cycle de vie du portefeuille d'actifs TI pour améliorer disponibilité et performance."},
+    {"keyword": "gestion documentaire", "suggestion": "Fait évoluer actifs de gestion documentaire pour répondre aux besoins métiers et conformité."},
+    {"keyword": "diriger", "suggestion": "Dirige et inspire équipes multidisciplinaires pour livrer projets et soutenir opérationnel."},
+    {"keyword": "vision stratégique", "suggestion": "Définit roadmap stratégique pour optimiser actifs et aligner priorités de l'organisation."},
+    {"keyword": "amélioration continue", "suggestion": "Implémente actions d'amélioration continue réduisant incidents et améliorant UX."},
+    {"keyword": "résolution des problèmes", "suggestion": "Diagnostique incidents et pilote résolutions durables pour restaurer services."},
+    {"keyword": "DevSecOps", "suggestion": "Encourage pratiques DevSecOps pour sécuriser pipeline de livraison et automatiser contrôles."}
+  ]
+}

@@ -1,0 +1,215 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{needspace}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Formatting
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+% Slight global indent for most bullets; skill lists keep their own small indent
+\setlist[itemize]{leftmargin=12pt, noitemsep, topsep=2pt}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{6pt}
+
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{6pt}{0pt}
+
+% Colors - Palette professionnelle
+\definecolor{primaryblue}{RGB}{0,82,155}
+\definecolor{accentblue}{RGB}{0,120,215}
+\definecolor{mediumgray}{RGB}{100,100,100}
+% keypoint is bold only now
+
+% Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    urlcolor=accentblue
+}
+
+% Custom commands
+\newcommand{\highlight}[1]{\textcolor{primaryblue}{\textbf{#1}}}
+\newcommand{\keypoint}[1]{\textbf{#1}}
+% Skill title with reduced visual weight
+\newcommand{\skilltitle}[1]{\normalsize\textcolor{primaryblue}{\textbf{#1}}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{ERIC MAYEUX}}\\
+    \vspace{2pt}
+    {\normalsize Scrum Master & Leader en ingénierie de la qualité}\\
+    \vspace{3pt}
+    43 rue Levis, Longueuil J4H 4B6, QC, Canada\\
+    \href{mailto:mayeux.e@gmail.com}{mayeux.e@gmail.com} | 438-884-7645
+\end{center}
+
+\vspace{6pt}
+
+\section*{Profil Professionnel}
+\noindent
+\highlight{Leader Agile} avec \keypoint{10+ ans d'expérience} combinant gestion de produit, leadership d'équipes et expertise technique approfondie en \highlight{Intégration qualité}. Atout unique : vision 360° du cycle de développement, permettant de définir des \highlight{stratégies produit réalistes}, \highlight{prioriser efficacement} et \highlight{anticiper les risques techniques}. Expert en méthodologies \highlight{Agile (Scrum, SAFe)} et alignement des \highlight{parties prenantes}. \highlight{Certifié Scrum Master}.
+
+\Needspace{4\baselineskip}
+\section*{Valeur Ajoutée : Quality Engineering comme Atout PM/SM}
+\begin{itemize}[leftmargin=10pt]
+    \item \highlight{Vision technique :} Priorisation réaliste du backlog en tenant compte des contraintes d'implémentation
+    \item \highlight{Risques anticipés :} Critères d'acceptation testables, définition claire de la DoD
+    \item \highlight{Culture DevOps :} Promeut l'intégration continue et la qualité dès la conception (shift-left)
+    \item \highlight{Collaboration Dev/QA :} Facilite la communication entre équipes techniques. Adresse les enjeux de SDLC
+    \item \highlight{Décisions data-driven :} KPIs qualité et tableaux de bord pour orienter la roadmap. User centric
+\end{itemize}
+\nopagebreak[4]
+\section*{Compétences Clés}
+
+\begin{minipage}[t]{0.55\textwidth}
+\skilltitle{Gestion de produit}
+\begin{itemize}[leftmargin=10pt]
+    \item Priorisation et gestion du backlog; définition de la feuille de route produit (roadmap)
+    \item Conception et écriture de User Story, Epic et critères d'acceptation (DoD / DoR)
+    \item Analyse des besoins et comportements utilisateurs. Définition des personas
+\end{itemize}
+
+\skilltitle{Agile \& Delivery}
+\begin{itemize}[leftmargin=10pt]
+    \item Scrum Master certifié; facilitation de cérémonies et coaching Agile
+    \item SAFe (Scaled Agile Framework), Planification d'itérations, sprints, Kanban, APOM
+    \item Mise en place de pratiques TDD / Specification-Driven où pertinent
+    \item Animation de pratiques. Organisation de hackathons
+\end{itemize}
+
+\skilltitle{Leadership \& Management}
+\begin{itemize}[leftmargin=10pt]
+    \item Management d'équipes (5+), mentorat et recrutement
+    \item Animation d'ateliers, hackathons et accompagnement du changement
+\end{itemize}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+\skilltitle{Compétences techniques}
+\begin{itemize}[leftmargin=10pt]
+    \item Architecture logicielle, APIs, microservices
+    \item CI/CD, pipelines, containers (Docker, Kubernetes)
+    \item Cloud (AWS, GCP) et stratégies de déploiement
+\end{itemize}
+
+\skilltitle{Outils \& Plateformes}
+\begin{itemize}[leftmargin=10pt]
+    \item Jira (cert. Admin ACP-600), Confluence, suite Atlassian
+    \item GitHub, Jenkins, Datadog, Splunk
+    \item Automatisation tests (Selenium, Playwright, Robot...)
+\end{itemize}
+
+\skilltitle{Parties prenantes \& Métriques}
+\begin{itemize}[leftmargin=10pt]
+    \item Communication client, reporting exécutif, alignment multi-équipes
+    \item OKR, KPI produit, tableaux de bord et suivi de la vélocité
+\end{itemize}
+\end{minipage}
+
+\section*{Expérience Professionnelle}
+
+\subsection*{Practice Lead Qualité | Responsable Pratique Qualité \& Facilitateur Agile} \hfill \textit{\color{mediumgray}Février 2025 -- Présent}\\
+Banque Nationale du Canada (BNC) -- Montréal, QC
+\begin{itemize}[leftmargin=22pt]
+    \item \highlight{Leadership Agile :} Pilote la pratique qualité pan-train (multi-squads) incluant équipes \textbf{internationales (Thaïlande)}
+    \item \highlight{Management :} Encadre, mentore et développe une équipe de \keypoint{5+ professionnels QA} en environnement SAFe
+    \item \highlight{Stratégie produit :} Définit et exécute la stratégie de test alignée avec la feuille de route produit
+    \item \highlight{Facilitation :} Anime des ateliers de définition de la \textbf{DoD (Definition of Done)} et des critères d'acceptation
+    \item \highlight{Décisions basées sur les données :} Implémente des KPI qualité et tableaux de bord (Datadog, Splunk, Jira)
+    \item \highlight{Innovation produit :} Conduit des POC (\textbf{IA, Playwright MCP, Crew AI}) et évalue l'impact business
+    \item \highlight{Gestion du changement :} Organise un hackathon de test et promeut une culture d'amélioration continue
+    \item \highlight{DevOps :} Met en place des pipelines CI/CD/CT améliorant le \keypoint{time-to-market de 40\%}
+\end{itemize}
+
+\subsection*{Intégrateur Qualité Senior | Ingénieur Qualité Senior \& Chef de projet technique} \hfill \textit{\color{mediumgray}Janvier 2022 -- Février 2025}\\
+Banque Nationale du Canada (BNC) via Groupe Astek -- Montréal, QC
+\begin{itemize}[leftmargin=22pt]
+    \item \highlight{Collaboration PO :} Travaille étroitement avec les Product Owners pour définir des User Stories testables
+    \item \highlight{Affinage du backlog :} Participe au grooming et apporte une perspective technique pour une priorisation efficace
+    \item \highlight{Stratégie produit :} Conçoit la stratégie de test alignée avec la feuille de route Gestion de Patrimoine \& ECM
+    \item \highlight{Gestion des parties prenantes :} Présente les métriques qualité aux parties prenantes pour assurer la transparence sur l'état du produit
+    \item \highlight{Gestion des risques :} Identifie les risques techniques dès la conception, évitant des retards de livraison
+    \item \highlight{Expertise technique :} Conseille le PO sur la faisabilité technique et l'effort estimé
+    \item \highlight{Reporting :} Crée des tableaux de bord qualité permettant des décisions basées sur les données
+\end{itemize}
+
+\subsection*{QA Lead | Responsable Automatisation QA} \hfill \textit{\color{mediumgray}Juin 2021 -- Décembre 2021}\\
+AODocs -- Paris, France
+\begin{itemize}[leftmargin=22pt]
+    \item \highlight{Optimisation de la livraison :} Automatise \keypoint{100\% des tests de régression}, libérant \keypoint{20h/sprint} pour de nouvelles fonctionnalités
+    \item \highlight{POC et innovation :} Évalue de nouveaux outils (tests mobiles Flutter, API Karate) et recommande leur adoption
+    \item \highlight{Standards qualité :} Implémente des design patterns (Page Object Model) adoptés par toute l'équipe
+    \item \highlight{Transparence :} Génère des rapports Allure facilitant la communication sur l'état du produit aux parties prenantes
+\end{itemize}
+
+\subsection*{Ingénieur DevOps \& Coordinateur de projet technique} \hfill \textit{\color{mediumgray}Janvier 2020 -- Juin 2021}\\
+ENGIE Digital via Groupe Hénix -- Paris, France
+\begin{itemize}[leftmargin=22pt]
+    \item \highlight{Gestion de projet :} Administre Jira (\keypoint{8 projets, 50+ utilisateurs}), pilote la feuille de route et priorise les initiatives
+    \item \highlight{KPI et métriques :} Met en place des tableaux de bord pour suivre la vélocité, les bugs et les performances des pipelines
+    \item \highlight{Stratégie CI/CD :} Conçoit une chaîne complète (Jenkins, Docker, Kubernetes) réduisant le \keypoint{time-to-market de 60\%}
+    \item \highlight{Évaluation d'outils :} Réalise des POC Robot Framework et Xray, recommande l'adoption basée sur le \highlight{retour sur investissement (ROI)}
+    \item \highlight{Collaboration transverse :} Coordonne les équipes Dev, Ops et QA pour une intégration continue
+\end{itemize}
+
+\subsection*{Product Owner \& Responsable Delivery} \hfill \textit{\color{mediumgray}Juin 2019 -- Septembre 2019}\\
+Hénix -- Montrouge, France
+\begin{itemize}[leftmargin=22pt]
+    \item \highlight{Product Owner :} Gère le backlog produit et priorise les fonctionnalités du plugin Xsquash (Jira avec Squash TM)
+    \item \highlight{Histoires utilisateur :} Rédige et valide les histoires utilisateur pour l'intégration bi-directionnelle Jira/Squash
+    \item \highlight{Succès client :} Assure le support SaaS et collecte les retours utilisateurs pour une amélioration continue
+    \item \highlight{Migration à grande échelle :} Participe à la reprise du Centre de Service Thales (\keypoint{8500 utilisateurs}, 200+ projets)
+\end{itemize}
+
+\subsection*{Développeur logiciel | Développeur Full-Stack} \hfill \textit{\color{mediumgray}Mai 2017 -- Mai 2019}\\
+MEDIAPOST via Groupe Hénix -- Paris, France
+\begin{itemize}[leftmargin=22pt]
+    \item Développe des \highlight{webservices SOAP/REST} (\highlight{SOA BPEL}) pour des applications de \highlight{contractualisation} et de \highlight{facturation}
+    \item Crée une \highlight{application web} de gestion comptable (\highlight{Node.js}) avec \highlight{import/export} multi-formats (\highlight{CSV, XML})
+    \item Automatise des \highlight{processus métier} avec \highlight{Google Apps Script} et macros Excel (gain \keypoint{15h/semaine})
+    \item Collabore avec l'équipe produit pour définir des \highlight{spécifications techniques} et des \highlight{parcours utilisateur}
+\end{itemize}
+
+\subsection*{Administrateur Plateformes \& Outils | Coordinateur technique} \hfill \textit{\color{mediumgray}Avril 2016 -- Avril 2017}\\
+ENGIE IT via Groupe Hénix -- Saint-Ouen, France
+\begin{itemize}[leftmargin=22pt]
+    \item Gère les \highlight{environnements de production} et coordonne les \highlight{déploiements} avec des équipes multiples
+    \item Administre \highlight{HP ALM Performance Center} (\keypoint{150+ utilisateurs}) et assure le \highlight{support technique}
+    \item Pilote les \highlight{évolutions de la plateforme} basées sur les besoins utilisateurs et le \highlight{retour d'expérience}
+\end{itemize}
+\vspace{6pt}
+
+\section*{Certifications \& Formations}
+
+\textbf{PMP (en cours)} \hfill \textit{\color{mediumgray}2025}\\
+\textbf{Scrum Fundamentals Certified (SFC)} \hfill \textit{\color{mediumgray}2024}\\
+\textbf{Jira ACP-600 (Administration Jira)} \hfill \textit{\color{mediumgray}2019}\\
+Autres : NeoLoad Pro, Selenium Professional, SoapUI, RPA \hfill \textit{\color{mediumgray}2019}
+
+\section*{Formation Académique}
+
+\textbf{Cursus Automaticien et DevOps} \hfill \textit{\color{mediumgray}2019}\\
+AFCEPF, Montrouge, France -- Formation DevOps, CI/CD, Infrastructure as Code. 
+
+\textbf{Master II (niveau) -- Architecture logicielle \& Analyste informaticien} \hfill \textit{\color{mediumgray}2017}\\
+AFCEPF, France -- UML, Bases de données, Architectures distribuées, Big Data
+
+\textbf{Licence en Gestion | Bachelor's Degree in Management} \hfill \textit{\color{mediumgray}2011}\\
+École Supérieure de Gestion (E.S.G) -- Paris, France
+
+\vspace{6pt}
+
+\section*{Compétences Linguistiques}
+
+\textbf{Français :} Langue maternelle \quad | \quad \textbf{Anglais :} Niveau avancé (Compétences professionnelles)
+
+\end{document}

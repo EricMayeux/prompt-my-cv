@@ -111,3 +111,8 @@ pdflatex nom_fichier_tailored.tex     # 2e passe pour références
 - Le CV optimisé doit tenir sur 2 pages maximum (cible pour < 15 ans d'expérience)
 - La Page 1 doit contenir : header, profil professionnel et compétences clés
 - Format PDF final : texte extractible (pas de scan/image), pas de tableaux complexes
+
+## Préférences Terminal
+- Utilisez systématiquement `bash -c "votre_commande"` pour toutes les interactions avec le terminal.
+- Privilégiez la syntaxe POSIX/Bash (ex: `ls`, `cat`, `grep`) plutôt que les cmdlets PowerShell.
+- Pour déclencher les outils MCP (comme Playwright), passez par `bash -c`.

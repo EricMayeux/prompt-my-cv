@@ -36,14 +36,15 @@ using the candidate's original CV as source of truth.
 **Goal**: Extract keywords, competences, and themes from the job offer.
 
 1. Read the job offer file provided by the user
-2. Extract 10–20 keywords preserving exact spelling from the offer (case, accents, plurals)
-3. Count exact occurrences (case-insensitive literal match)
-4. Group keywords by theme (e.g., Frameworks Agile, Soft Skills, Outils & gouvernance)
-5. Assign priority: High / Medium / Low based on frequency and role importance
-6. Merge keyword variants under same item (e.g., "Scrum" + "scrum master")
-7. Extract `competences_extracted` (soft skills, methodological, technical)
-8. For each High keyword, generate 1 CV phrase suggestion (max 140 chars)
-9. Create JSON file: `offres/analyse/{offer_name}.json`
+2. Check for the language. If it's in French, proceed in French. If it's in English, proceed in English. You will have to adapt the CV and the motivation letter to the language of the offer. If it's in another language, ask the user to provide an offer in French or English.
+3. Extract 10–20 keywords preserving exact spelling from the offer (case, accents, plurals)
+4. Count exact occurrences (case-insensitive literal match)
+5. Group keywords by theme (e.g., Frameworks Agile, Soft Skills, Outils & gouvernance)
+6. Assign priority: High / Medium / Low based on frequency and role importance
+7. Merge keyword variants under same item (e.g., "Scrum" + "scrum master")
+8. Extract `competences_extracted` (soft skills, methodological, technical)
+9. For each High keyword, generate 1 CV phrase suggestion (max 140 chars)
+10. Create JSON file: `offres/analyse/{offer_name}.json`
 
 **JSON structure**: See [parse-offre reference](./references/parse-offre-format.md)
 
@@ -88,15 +89,16 @@ using the candidate's original CV as source of truth.
 **Goal**: Produce a personalized, ATS-aligned motivation letter.
 
 1. Read the job offer, the tailored CV from Phase 2, and the JSON analysis
-2. Generate a 380–450 word letter in plain text with 4–5 paragraphs:
+2. The language of the letter must match the language of the offer (French or English)
+3. Generate a 380–450 word letter in plain text with 4–5 paragraphs:
    - **P1 (Hook)**: Position mention, company, key differentiator
    - **P2 (Current role alignment)**: Current role from CV, 1-2 quantified achievements
    - **P3 (Career depth)**: Past relevant experience, progression, value alignment
    - **P4 (Human dimension)**: Soft skills, culture fit, 2 suggestions from analysis
    - **P5 (Conclusion)**: Value synthesis, availability, polite closing
-3. Integrate each High keyword at least once (max 3 repetitions for core terms)
-4. Extract 3-5 quantified achievements from CV
-5. Create file: `lm_{role_title}_{post_id}.tex` with LaTeX formatting
+4. Integrate each High keyword at least once (max 3 repetitions for core terms)
+5. Extract 3-5 quantified achievements from CV
+6. Create file: `lm_{role_title}_{post_id}.tex` with LaTeX formatting
 
 **Style rules**:
 - Action verbs: Faciliter, Coordonner, Piloter, Optimiser, Déployer
@@ -129,6 +131,7 @@ using the candidate's original CV as source of truth.
 - [ ] 1-3 quantified achievements included
 - [ ] Final paragraph calls for interview
 - [ ] No bullet lists in output
+- [ ] Language matches offer (French or English)
 - [ ] .tex file created with correct name
 
 ## File Naming Conventions
@@ -154,4 +157,4 @@ using the candidate's original CV as source of truth.
 - Every fact in the tailored CV must trace back to `cv.tex`
 - Every achievement in the letter must trace back to `cv.tex`
 - No fabricated metrics, dates, companies, or experiences
-- Language is French
+- Language is English or French only, matching the offer

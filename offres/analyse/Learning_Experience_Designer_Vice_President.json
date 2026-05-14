@@ -1,0 +1,183 @@
+{
+  "source": "Learning_Experience_Designer_Vice_President",
+  "job_id": "26933375",
+  "language": "English",
+  "top_keywords": [
+    {
+      "keyword": "Adult Learning and Behavioral Science Principles",
+      "occurrences": 2,
+      "category": "Domain Expertise",
+      "priority": "High"
+    },
+    {
+      "keyword": "Leadership Development",
+      "occurrences": 3,
+      "category": "Domain Expertise",
+      "priority": "High"
+    },
+    {
+      "keyword": "Learning Solutions",
+      "occurrences": 3,
+      "category": "Domain Expertise",
+      "priority": "High"
+    },
+    {
+      "keyword": "Stakeholder Management",
+      "occurrences": 2,
+      "category": "Soft Skills",
+      "priority": "High"
+    },
+    {
+      "keyword": "Generative AI Tools",
+      "occurrences": 1,
+      "category": "Technology & Tools",
+      "priority": "High"
+    },
+    {
+      "keyword": "Learning Technologies",
+      "occurrences": 2,
+      "category": "Technology & Tools",
+      "priority": "High"
+    },
+    {
+      "keyword": "Agile Principles",
+      "occurrences": 1,
+      "category": "Methodologies",
+      "priority": "High"
+    },
+    {
+      "keyword": "Design Sprints",
+      "occurrences": 1,
+      "category": "Methodologies",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Change Management",
+      "occurrences": 1,
+      "category": "Consulting & Advisory",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Data Analysis",
+      "occurrences": 1,
+      "category": "Analytics & Measurement",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Performance Measurement",
+      "occurrences": 1,
+      "category": "Analytics & Measurement",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Learning Impact Analysis",
+      "occurrences": 1,
+      "category": "Analytics & Measurement",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Subject Matter Expert",
+      "occurrences": 1,
+      "category": "Roles & Positioning",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Accessibility",
+      "occurrences": 1,
+      "category": "Design Principles",
+      "priority": "Medium"
+    },
+    {
+      "keyword": "Communication",
+      "occurrences": 1,
+      "category": "Soft Skills",
+      "priority": "Medium"
+    }
+  ],
+  "grouped_by_theme": {
+    "Domain Expertise": [
+      "Adult Learning and Behavioral Science Principles",
+      "Leadership Development",
+      "Learning Solutions"
+    ],
+    "Technology & Tools": [
+      "Generative AI Tools",
+      "Learning Technologies",
+      "LMS",
+      "Authoring Tools"
+    ],
+    "Methodologies": [
+      "Agile Principles",
+      "Design Sprints"
+    ],
+    "Consulting & Advisory": [
+      "Change Management",
+      "Consulting and Advisory Skills"
+    ],
+    "Analytics & Measurement": [
+      "Data Analysis",
+      "Performance Measurement",
+      "Learning Impact Analysis"
+    ],
+    "Soft Skills": [
+      "Stakeholder Management",
+      "Communication",
+      "Influence and Negotiation",
+      "Organization and Attention to Detail"
+    ],
+    "Design Principles": [
+      "Accessibility",
+      "Cognitive Load",
+      "Engagement"
+    ]
+  },
+  "competences_extracted": [
+    "Adult Learning Principles",
+    "Behavioral Science",
+    "Learning Design",
+    "Leadership Development",
+    "Stakeholder Management",
+    "Agile Methodology",
+    "Design Thinking",
+    "Change Management",
+    "Learning Technologies (LMS, Authoring Tools)",
+    "Generative AI Tools",
+    "Data Analysis and Learning Analytics",
+    "Performance Measurement",
+    "Consulting and Advisory",
+    "Subject Matter Expertise",
+    "Communication and Influence",
+    "Project Management",
+    "Accessibility Compliance"
+  ],
+  "suggestions_cv": [
+    {
+      "keyword": "Adult Learning and Behavioral Science Principles",
+      "suggestion": "Applied adult learning theory and behavioral science to design impactful learning solutions that improve engagement and knowledge retention."
+    },
+    {
+      "keyword": "Leadership Development",
+      "suggestion": "Designed and delivered leadership development programs for executive and emerging leader audiences across global organizations."
+    },
+    {
+      "keyword": "Learning Solutions",
+      "suggestion": "Developed scalable learning solutions combining synchronous and asynchronous modalities to meet diverse organizational learning needs."
+    },
+    {
+      "keyword": "Stakeholder Management",
+      "suggestion": "Partnered with executive stakeholders to align learning initiatives with business strategy and drive organizational impact."
+    },
+    {
+      "keyword": "Generative AI Tools",
+      "suggestion": "Leveraged generative AI tools to streamline content creation and enhance learning design efficiency."
+    },
+    {
+      "keyword": "Learning Technologies",
+      "suggestion": "Managed learning platforms (LMS) and authoring tools to deliver engaging digital learning experiences at scale."
+    },
+    {
+      "keyword": "Agile Principles",
+      "suggestion": "Applied agile principles and design sprints to accelerate development and deployment of formal training programs."
+    }
+  ]
+}

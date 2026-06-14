@@ -1,0 +1,63 @@
+{
+  "source": "Scrum_master_principal_1406",
+  "top_keywords": [
+    {"keyword": "Scrum", "occurrences": 8, "category": "Frameworks Agile", "priority": "High"},
+    {"keyword": "Agile", "occurrences": 6, "category": "Frameworks Agile", "priority": "High"},
+    {"keyword": "Scrum Master", "occurrences": 4, "category": "Roles & Positioning", "priority": "High"},
+    {"keyword": "PSM II", "occurrences": 0, "category": "Certifications", "priority": "High"},
+    {"keyword": "CSM", "occurrences": 1, "category": "Certifications", "priority": "High"},
+    {"keyword": "SAFe", "occurrences": 2, "category": "Frameworks Agile", "priority": "High"},
+    {"keyword": "PI Planning", "occurrences": 1, "category": "Planification & Backlog", "priority": "High"},
+    {"keyword": "priorisation", "occurrences": 2, "category": "Planification & Backlog", "priority": "High"},
+    {"keyword": "faciliter|facilitation", "occurrences": 2, "category": "Facilitation & Leadership", "priority": "High"},
+    {"keyword": "amélioration continue", "occurrences": 2, "category": "Delivery & Qualité", "priority": "High"},
+    {"keyword": "KPI", "occurrences": 2, "category": "Mesure & Pilotage", "priority": "High"},
+    {"keyword": "CI/CD", "occurrences": 1, "category": "Tech & Architecture", "priority": "Medium"},
+    {"keyword": "anglais professionnel", "occurrences": 1, "category": "Compétences Linguistiques", "priority": "Medium"},
+    {"keyword": "énergie", "occurrences": 1, "category": "Domaine métier", "priority": "Low"}
+  ],
+  "exact_terms": [
+    "Scrum",
+    "Agile",
+    "Scrum Master",
+    "PSM II",
+    "CSM",
+    "SAFe",
+    "PI Planning",
+    "priorisation",
+    "faciliter",
+    "amélioration continue",
+    "KPI",
+    "CI/CD",
+    "anglais professionnel",
+    "énergie"
+  ],
+  "grouped_by_theme": {
+    "Frameworks Agile": ["Scrum", "Agile", "SAFe"],
+    "Planification & Backlog": ["PI Planning", "priorisation"],
+    "Facilitation & Leadership": ["faciliter", "coaching", "mentorat"],
+    "Delivery & Qualité": ["amélioration continue", "KPI", "résolution de problèmes"],
+    "Outils & Tech": ["CI/CD", "architecture", "tests"],
+    "Soft skills": ["communication", "influence", "résilience"],
+    "Langues": ["anglais professionnel"]
+  },
+  "competences_extracted": [
+    "Méthodologie agile",
+    "Communication",
+    "Amélioration continue",
+    "Priorisation",
+    "Résolution de problèmes",
+    "Coaching et mentorat",
+    "KPI / Indicateurs",
+    "Gestion du backlog",
+    "CI/CD",
+    "Anglais professionnel"
+  ],
+  "suggestions_cv": [
+    {"keyword":"Scrum","suggestion":"Faciliter cérémonies Scrum multi-équipes pour assurer cadence et livraison de valeur."},
+    {"keyword":"Agile","suggestion":"Piloter pratiques Agile/SAFe axées sur priorisation et amélioration continue."},
+    {"keyword":"PI Planning","suggestion":"Contribuer à la préparation et à l'animation du PI Planning pour aligner équipes et priorités."},
+    {"keyword":"Coaching et mentorat","suggestion":"Coach et mentor auprès d'autres Scrum Masters, développement de la communauté de pratique agile."},
+    {"keyword":"KPI","suggestion":"Produire et communiquer des KPI d'avancement et de qualité aux parties prenantes."}
+  ]
+}
